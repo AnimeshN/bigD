@@ -1,0 +1,25 @@
+body {
+  background: url("../images/bg_body.png") no-repeat;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-size: cover;
+}
+.inner {
+  padding: 25px 50px;
+  position: relative;
+}
+.logo {
+  display: inline;
+  padding: 0;
+}
+.logo a {
+  position: relative;
+  background: url("../images/logo.png") no-repeat 0 0;
+  height: 100px;
+  width: 200px;
+  display: block;
+  overflow: hidden;
+  background-size: contain;
+  text-indent: -99em;
+}
